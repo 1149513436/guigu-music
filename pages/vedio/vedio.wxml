@@ -1,0 +1,16 @@
+<view class="vedioContainer">
+	<view class="header">
+	<image src="/static/images/video/video.jpg"></image>
+	<view class="search">搜索歌曲</view>
+	<image src="/static/images/logo.png"></image>
+	</view>
+	<!-- 导航区域 -->
+	<scroll-view class="navScroll" scroll-x enable-flex>
+		<view class="navItem" wx:for="{{videoGroupList}}" wx:key="index">
+			<view class="navContent {{navId==item.id ? 'active' : '' }}" id="{{item.id}}"  bindtap="clickNav">
+				{{item.name}}
+			</view>
+		</view>
+		
+	</scroll-view>
+</view>

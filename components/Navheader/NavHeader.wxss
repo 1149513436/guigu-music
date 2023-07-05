@@ -1,0 +1,21 @@
+/* components/Navheader/NavHeader.wxss */
+
+ .header{
+	margin-bottom: 20rpx;
+}
+ .header .title{
+	font-size: 32rpx;
+	line-height: 80rpx;
+	color: #666;
+}
+ .header .more{
+	float: right;
+	border: 1px solid #333;
+	font-size: 24rpx;
+	border-radius: 30rpx;
+	margin-right: 2rpx;
+}
+.tuijian{
+	font-size: 30rpx;
+	color: #666;
+}

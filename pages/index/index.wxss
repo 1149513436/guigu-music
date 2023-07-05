@@ -1,0 +1,100 @@
+
+.banner{
+	width: 100%;
+	height: 300rpx;
+}
+.banner image{
+	width: 100%;
+	height: 100%;
+}
+.navContaioner{
+	display: flex;
+}
+.navitem{
+	display: flex;
+	flex-direction: column;
+	flex:20%;
+	justify-content: center;
+	align-items: center;
+}
+
+ .navitem .iconfont{
+	width: 100rpx;
+	height: 100rpx;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 100rpx;
+	background-color: rgb(240, 19, 19);
+	font-size: 50rpx;
+	color: #fff;
+	margin: 20rpx 0;
+}
+.navitem text{
+	font-size: 26rpx;
+	/* text-align: center; */
+}
+.recommendContainer{
+	padding: 20rpx;
+}
+
+/* 推荐内容区域样式 */
+.recommendScroll{
+	display: flex;
+	height: 300rpx;
+}
+.scrollItem{
+	width: 200rpx;
+	margin-right: 20rpx;
+}
+.scrollItem image{
+	width: 200rpx;
+	height: 200rpx;
+	border-radius: 10rpx;
+}
+.scrollItem text{
+	font-size: 26rpx;
+	/* 单行文本溢出,但是需要注意overflow:hidden 只能作用在块级作用域上
+	但是因为这里我们开启了flex布局，这样元素都行内块*/
+	/* display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis; */
+	/* 多行文本溢出, */
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical; /*对齐方式*/
+	-webkit-line-clamp: 2;/*超出两行设置省略号*/
+}
+.topListSwiper{
+	height: 400rpx;
+}
+.swiperItem{
+	font-size: 30rpx;
+	line-height: 80rpx;
+	width: 96%;
+	background-color: #fbfbfb;
+}
+.musicItem{
+	display: flex;
+	margin-bottom: 10rpx;
+}
+.musicItem image{
+	width: 100rpx;
+	height: 100rpx;
+	border-radius: 6rpx;
+}
+.musicItem .count{
+	width: 100rpx;
+	height: 100rpx;
+	text-align: center;
+	line-height: 100rpx;
+}
+.musicItem .musicName{
+	height: 100rpx;
+	line-height: 100rpx;
+max-width: 400rpx;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}

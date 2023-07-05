@@ -1,0 +1,28 @@
+.vedioContainer .header{
+	display: flex;
+	padding: 10rpx;
+	justify-content: space-between;
+	flex-direction: row;
+	align-items: center;
+}
+.vedioContainer image{
+	width: 60rpx;
+	height: 60rpx;
+}
+.search{
+	font-size: 26rpx;
+	color: #d43c33;
+}
+.navScroll{
+	display: flex;
+	white-space: nowrap;
+}
+.navScroll .navItem{
+	padding: 0 30rpx;
+	font-size: 28rpx;
+	height: 60rpx;
+	line-height: 60rpx;
+}
+.navItem .active{
+	border-bottom: 1px solid #d43c33;
+}

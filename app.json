@@ -1,0 +1,45 @@
+{
+	"pages": [
+		"pages/login/login",
+		"pages/vedio/vedio",
+	
+		"pages/index/index",
+		"pages/personal/personal"
+		
+		
+	],
+	"window": {
+		"navigationBarBackgroundColor": "#d43c33",
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "硅谷云音乐",
+		"backgroundColor": "#eeeeee",
+		"backgroundTextStyle": "light"
+	},
+	"style": "v2",
+	"sitemapLocation": "sitemap.json",
+	"tabBar": {
+		"color": "#333",
+		"selectedColor": "#d43c33",
+		"backgroundColor": "#fff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "主页",
+				"iconPath": "/static/images/tabs/tab-home.png",
+				"selectedIconPath": "static/images/tabs/tab-home-current.png"
+			},
+			{
+				"pagePath": "pages/vedio/vedio",
+				"text": "视频",
+				"iconPath": "/static/images/tabs/select.png",
+				"selectedIconPath": "/static/images/tabs/selected.png"
+			},
+			{
+				"pagePath": "pages/personal/personal",
+				"text": "主页",
+				"iconPath": "/static/images/tabs/tab-my.png",
+				"selectedIconPath": "/static/images/tabs/tab-my-current.png"
+			}
+		]
+	}
+}
